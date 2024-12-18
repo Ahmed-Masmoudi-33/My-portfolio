@@ -7,6 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <nav id="desktop-nav">
@@ -14,28 +15,14 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="./temoignage-iit/iit.html">IIT</a></li>
+          <li><a href="./quiz/quiz.html">Quiz</a></li>
         </ul>
       </div>
     </nav>
-    <!-- <nav id="hamburger-nav">
-      <div class="logo">Ahmed Masmoudi</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav> -->
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile-picture2.png" alt="Ahmed Masmoudi profile picture" />
@@ -86,30 +73,21 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon about-icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />CS Student</p>
-            </div>
-            <div class="details-container">
-              <img
                 src="./assets/education.png"
                 alt="Education icon"
                 class="icon about-icon"
               />
               <h3>Education</h3>
-              <p>Baccalaureate Graduate<br />Prepa</p>
+              <p>Baccalaureate Graduate<br />Admitted in Concours National d'Entrée aux Écoles d'Ingénieurs</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              I successfully obtained my baccalauréat in Tunisia in 2022, which marked the
+              I successfully obtained my <span>Baccalauréat</span> in Tunisia in 2022, which marked the
                start of my academic journey. I was oriented to the cycle préparatoire at 
                the Faculty of Sciences (FSS), where I developed a strong foundation in 
                mathematics, physics, and engineering sciences. Building on this, 
-               I succeeded in the Concours National d'Entrée aux Écoles d'Ingénieurs in 2024. With a passion for technology and 
+               I succeeded in the <span>Concours National d'Entrée aux Écoles d'Ingénieurs</span> in 2024. With a passion for technology and 
                problem-solving, I chose to pursue my studies in Computer Science at the IIT
                (Institute of Technology), where I aim to deepen my knowledge and skills in 
                the field and prepare for a successful career in software engineering and innovation.
@@ -121,18 +99,18 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#desktop-nav'"
       />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section id="skills">
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">CS Student</h2>
+        <div class="about-containers skills-items">
+          <div class="details-container skills-box">
+            <h2 class="experience-sub-title">Hard Skills</h2>
             <div class="article-container">
-              <article><!-- n7ot hna logo mte3 kol language? -->
+              <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
@@ -140,7 +118,7 @@
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
@@ -151,18 +129,7 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <p>Basic</p>
                 </div>
               </article>
               <article>
@@ -183,8 +150,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -194,14 +161,26 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
+                  <h3>SQL</h3>
                   <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                  <p>Basic
+                  </p>
                 </div>
               </article>
             </div>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="details-container skills-box">
+            <h2 class="experience-sub-title">Soft Skills</h2>
             <div class="article-container">
               <article>
                 <img
@@ -210,8 +189,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Communication</h3>
                 </div>
               </article>
               <article>
@@ -221,8 +199,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Problem-Solving</h3>
                 </div>
               </article>
               <article>
@@ -232,8 +209,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Adaptability</h3>
                 </div>
               </article>
               <article>
@@ -243,8 +219,27 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>Leadership</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Critical Thinking</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Teamwork</h3>
                 </div>
               </article>
             </div>
@@ -255,7 +250,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#desktop-nav'"
       />
     </section>
     <section id="projects">
@@ -341,7 +336,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='./#desktop-nav'"
       />
     </section>
     <section id="contact">
@@ -365,20 +360,15 @@
           <p><a href="https://www.linkedin.com/in/ahmed-masmoudi-08522a342/">LinkedIn</a></p>
         </div>
       </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#desktop-nav'"
+      />
     </section>
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
       <p>Copyright &#169; 2024 Ahmed Masmoudi. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>

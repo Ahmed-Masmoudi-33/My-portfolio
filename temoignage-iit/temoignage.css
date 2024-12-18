@@ -1,0 +1,48 @@
+
+  /* Testimonial Section */
+  #testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* Full page height */
+    background: url('../assets/iit-campus.jpg') no-repeat center center/cover; /* Background image */
+    position: relative;
+  }
+  .contact-info-upper-container{
+    gap:7rem
+  }
+  #testimonial::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.171); /* Overlay to make text more readable */
+    z-index: 1;
+  }
+  
+  .testimonial-content {
+    position: relative;
+    z-index: 2; /* Ensures content appears above the overlay */
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.805); /* Semi-transparent white rectangle */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners for modern design */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); Subtle shadow for emphasis */
+    text-align: center;
+  }
+  
+  .testimonial-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+  }
+  /* footer {
+    height: 26vh;/* l formulaire lezem ykoun 21vh */
+    /* margin: 0 1rem;
+  } */ 
