@@ -174,6 +174,7 @@ section {
 
 .btn-color-2 {
   background: none;
+  color: rgb(53, 53, 53);
 }
 
 .btn-color-2:hover {
@@ -226,7 +227,7 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 13rem;
   height: 80vh;
 }
 
@@ -319,8 +320,10 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 0.5rem;
+  margin-top: 2rem;
+
 }
 
 .contact-info-container {
@@ -342,11 +345,44 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+.mail-submission {
+  width: 30rem;
+  margin: 0 auto;
+  height: 33rem;
+  margin-bottom: 6rem;
+ }
+ 
+ 
+form {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+ }
+ 
+.input__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+ }
+ 
+.input__container label { 
+  font-size: larger; 
+}
+ 
+.input__container input,
+ textarea {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+  resize: none;
+ }
+ 
 
 /* FOOTER SECTION */
 
 footer {
-  height: 5vh;/* l formulaire lezem ykouçn 21vh */
+  height: 5vh;
   margin: 0 1rem;
 }
 

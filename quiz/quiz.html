@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="quiz.css">
   <link rel="stylesheet" href="../style.css" />
-  <script src="script.js"></script>
+
 </head>
 
 <body>
   <nav id="desktop-nav">
-    <div class="name">Ahmed Masmoudi</div>
+    <div class="name" ><a  href="../index.html">Ahmed Masmoudi</a></div>
     <div>
       <ul class="nav-links">
         <li><a href="../index.html#about">About</a></li>
@@ -37,28 +37,28 @@
           </div>
 
           <div class="question-container">
-            <p id="category" class="category-text">Category: Science</p>
-            <h2 id="question">What is the largest planet in our solar system?</h2>
+            <h2 id="question">What comes next in the series? 1, 1, 2, 3, 5, 8, ...</h2>
           </div>
 
           <div class="answers-container">
-            <button class="answer" data-id="1">Earth</button>
-            <button class="answer" data-id="2">Mars</button>
-            <button class="answer" data-id="3">Jupiter</button>
-            <button class="answer" data-id="4">Saturn</button>
+            <button class="answer" data-id="1">10</button>
+            <button class="answer" data-id="2">12</button>
+            <button class="answer" data-id="3">13</button>
+            <button class="answer" data-id="4">15</button>
           </div>
 
           <div class="status-bar">
             <p>Score: <span id="score">0</span></p>
             <p>High Score: <span id="high-score">0</span></p>
-            <p>Time Left: <span id="time">30</span> seconds</p>
+            <p>Time Left: <span id="time">120</span> seconds</p>
           </div>
 
           <button id="start" class="start-btn">Start Game</button>
         </div>
+        <div id="results" class="results-container"></div>
       </div>
     </div>
-
+    <script src="script.js"></script>
   </section>
   <footer>
     <p>Copyright &#169; 2024 Ahmed Masmoudi. All Rights Reserved.</p>
